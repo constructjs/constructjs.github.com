@@ -31,24 +31,34 @@
 	<!-- MAIN CONTENT -->
 	<div id="main_content_wrap" class="outer">
 		<section id="main_content" class="inner">
-			<h3>Welcome to GitHub Pages.</h3>
+			<h3>Welcome...</h3>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+<p>A lightweight WebGL framework that uses existing open source libraries for fast-paced and agile development. The Web and particularly WebGL are still tested as a sustainable platform for video games. Mainly this is more of a tooling problem (and experience in using it) rather than a hard limit in existing potential. Created out of this need is an HTML5 framework that leverages existing open source libraries to render 3D graphics, using preconceived conventions while taking a firm stance towards following best practices. That’s Construct.js</p>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+<p>Instrumental components of Construct.js are:</p>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+<ul>
+	<li>jQuery Three, a jQuery plugin that connects Three.js with markup tags</li>
+	<li>Backbone APP - an extension library for Backbone.js that includes a number of common conventions under the “app” namespace.</li>
+	<li>Handlebars.js, a simple javascript template engine</li>
+</ul>
 
-<h3>Designer Templates</h3>
+<p>Construct.js can be used to generate any sort of 3D on the browser but is predominantly curated for interactive 3D, mostly found in video games. Before we start using it, maybe addressing some on the obvious criticisms is appropriate.</p>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+<h3>What’s the point?</h3>
 
-<h3>Rather Drive Stick?</h3>
+<p>There are many game development frameworks out there that run natively on devices using compiled code. They are optimized and can deploy across platforms. I have had the pleasure to use most of them throughout the years and they do have their strong points. Creating a codebase with one of those frameworks is reasonable, as long as there’s the understanding that the application you create will only work using the selected framework, which in most cases is proprietary technology that requires licensing.</p>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+<p>The Web has its own benefits - predominantly because of its distributed, network-based nature. Modern browsers come with a set of Web APIs that allow access to complex functions like geolocation with practically no custom code. In addition there’s a vibrant developer community that outputs open source libraries that range across all areas of application development. Building an app using HTML5 standards and relying on open source is a sure way to leverage pre-existing tech and bring down production costs - including development, maintenance and licensing.</p>
+
+<h3>Not another HTML5 framework!</h3>
+
+<p>Every other day we see someone reinvent the wheel and release a new JavaScript framework. Most of them have similar features, namespace definitions and use the “all under one roof” approach. Construct.js is in fact trying to avoid this practice by depending on popular libraries like Backbone.js, Underscore, Handlebars.js, Three,js, jQuery and Require.js(5). It’s non-intrusive and all conventions can be overridden.</p>
+
+<p>Technically Construct.js can be perceived as a binding shell rather than a development framework. More interestingly, Construct.js is not relying solely on JavaScript. Markup has proven its utility in the DOM(7) and separation of concerns(6)  is one of the fundamental principles it’s trying to enforce by using a combination of markup tags, CSS styles and JavaScript. The core belief is that 3D needs to be constructed on the web like all other DOM elements, following the same concepts & conventions.</p>
+
+<p>The approach to setting these conventions is noteworthy, as Construct.js is built with the foresight to upcoming evolutions of the web platform like EcmaScript 6 and web components using the Shadow DOM(8), and tries to “play nice” with existing web APIs and set standards. Construct.js was created to free web developers, not get them tied to another framework they can’t escape. It won’t try to take over the full development stack or the whole browser viewport. It’ll just be contained to where it’s defined and run the code that’s needed.</p>
+
 
 <h3>Authors and Contributors</h3>
 
