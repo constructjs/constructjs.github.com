@@ -32,6 +32,9 @@
 			"backbone.app": [
 				"http://cdn.kdi.co/js/backbone.app/0.9.4/backbone.app-min"
 			],
+			"backbone.markdown": [
+				"/assets/js/libs/backbone.markdown"
+			],
 			"helper-handlebars": [
 				"/assets/js/helpers/handlebars"
 			],
@@ -73,6 +76,12 @@
 					"handlebars"
 				]
 			},
+			"backbone.markdown": {
+				"deps": [
+					"backbone.app",
+					"showdown"
+				]
+			},
 			"helper-handlebars": {
 				"deps": [
 					"handlebars"
@@ -89,8 +98,8 @@
 				"deps": [
 					"backbone",
 					"underscore",
-					"showdown",
 					"jquery",
+					"backbone.markdown",
 					"handlebars",
 					"app-models"
 				]
