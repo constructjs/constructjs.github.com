@@ -1,11 +1,20 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 
 <head>
-	<meta charset='utf-8' />
+	<meta charset="UTF-8">
+	<title>Construct.js</title>
 	<meta http-equiv="X-UA-Compatible" content="chrome=1" />
 	<meta name="description" content="Construct.js : The WebGL framework you already know" />
-
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6/html5shiv.min.js"></script>
+	<![endif]-->
+	<link rel="stylesheet" type="text/css" media="screen" href="http://cdn.kdi.co/css/common/0.6.0/common-min.css">
 	<link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css">
 
 	<title>Construct.js</title>
@@ -25,39 +34,30 @@
 						<a href="" class="">Learn More</a>
 						<a href="" class="">Download</a>
 					</section>
+
+				<div class="share">
+					<! -- Google Plus -->
+					<div class="g-plusone" data-size="medium"><a href="https:/plus.goolge.com">Share on G+</a></div>
+					<! -- Twitter -->
+					<div class="twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal">Share on Twitter</a></div>
+					<! -- Facebook -->
+					<div class="fb-like" data-layout="button_count" data-send="false" data-show-faces="false"></div>
+				</div>
+
 			</header>
 	</div>
 
+* Introduction
+* Examples
+* Features
+* Download
+
+
 	<!-- MAIN CONTENT -->
+	<div id="main"><!-- --></div>
+
 	<div id="main_content_wrap" class="outer">
-		<section id="main_content" class="inner">
-			<h3>Welcome...</h3>
-
-<p>A lightweight WebGL framework that uses existing open source libraries for fast-paced and agile development. The Web and particularly WebGL are still tested as a sustainable platform for video games. Mainly this is more of a tooling problem (and experience in using it) rather than a hard limit in existing potential. Created out of this need is an HTML5 framework that leverages existing open source libraries to render 3D graphics, using preconceived conventions while taking a firm stance towards following best practices. That’s Construct.js</p>
-
-<p>Instrumental components of Construct.js are:</p>
-
-<ul>
-	<li>jQuery Three, a jQuery plugin that connects Three.js with markup tags</li>
-	<li>Backbone APP - an extension library for Backbone.js that includes a number of common conventions under the “app” namespace.</li>
-	<li>Handlebars.js, a simple javascript template engine</li>
-</ul>
-
-<p>Construct.js can be used to generate any sort of 3D on the browser but is predominantly curated for interactive 3D, mostly found in video games. Before we start using it, maybe addressing some on the obvious criticisms is appropriate.</p>
-
-<h3>What’s the point?</h3>
-
-<p>There are many game development frameworks out there that run natively on devices using compiled code. They are optimized and can deploy across platforms. I have had the pleasure to use most of them throughout the years and they do have their strong points. Creating a codebase with one of those frameworks is reasonable, as long as there’s the understanding that the application you create will only work using the selected framework, which in most cases is proprietary technology that requires licensing.</p>
-
-<p>The Web has its own benefits - predominantly because of its distributed, network-based nature. Modern browsers come with a set of Web APIs that allow access to complex functions like geolocation with practically no custom code. In addition there’s a vibrant developer community that outputs open source libraries that range across all areas of application development. Building an app using HTML5 standards and relying on open source is a sure way to leverage pre-existing tech and bring down production costs - including development, maintenance and licensing.</p>
-
-<h3>Not another HTML5 framework!</h3>
-
-<p>Every other day we see someone reinvent the wheel and release a new JavaScript framework. Most of them have similar features, namespace definitions and use the “all under one roof” approach. Construct.js is in fact trying to avoid this practice by depending on popular libraries like Backbone.js, Underscore, Handlebars.js, Three,js, jQuery and Require.js(5). It’s non-intrusive and all conventions can be overridden.</p>
-
-<p>Technically Construct.js can be perceived as a binding shell rather than a development framework. More interestingly, Construct.js is not relying solely on JavaScript. Markup has proven its utility in the DOM(7) and separation of concerns(6)  is one of the fundamental principles it’s trying to enforce by using a combination of markup tags, CSS styles and JavaScript. The core belief is that 3D needs to be constructed on the web like all other DOM elements, following the same concepts & conventions.</p>
-
-<p>The approach to setting these conventions is noteworthy, as Construct.js is built with the foresight to upcoming evolutions of the web platform like EcmaScript 6 and web components using the Shadow DOM(8), and tries to “play nice” with existing web APIs and set standards. Construct.js was created to free web developers, not get them tied to another framework they can’t escape. It won’t try to take over the full development stack or the whole browser viewport. It’ll just be contained to where it’s defined and run the code that’s needed.</p>
+		<section id="main_content" class="inner"><!-- --></section>
 
 
 
@@ -76,7 +76,6 @@
 <h3>Support or Contact</h3>
 
 <p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-	</section>
 </div>
 
 <!-- FOOTER  -->
@@ -87,6 +86,9 @@
 	</footer>
 </div>
 
+
+<script type="text/javascript" src="assets/js/config.js"></script>
+<script type="text/javascript" data-main="assets/js/main.js" src="//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.4/require.min.js" defer></script>
 
 </body>
 </html>
