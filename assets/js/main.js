@@ -1,12 +1,17 @@
 var app;
 
+// load the config
+require.config( config );
+
 // when logic dependencies are loaded
-$(function() {
+function init(){
 
-	// initialize APP
-	app = new APP();
-	window.app = app;
-	// start backbone history
-	Backbone.history.start();
+	$(function() {
+		// initialize APP
+		app = new APP();
+		window.app = app;
+		// start backbone history
+		Backbone.history.start();
+	});
 
-});
+}
