@@ -1,13 +1,17 @@
-(function(){
-		
-	config = {
-		"callback": function(){ init();}, 
+(function(w){
+
+	var config = {
+		"callback": function(){ init(); },
 		"paths": {
+			"commons": [
+				"http://cdn.kdi.co/js/common/0.3.0/common-min"
+			],
 			"jquery": [
 				"http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min"
 			],
 			"json2": [
-				"http://cdnjs.cloudflare.com/ajax/libs/json2/20121008/json2.min"
+				"http://cdnjs.cloudflare.com/ajax/libs/json2/20121008/json2.min",
+				"http://cdn.kdi.co/js/json2/20121008/json2.min"
 			],
 			"underscore": [
 				"http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.4/underscore-min"
@@ -22,11 +26,11 @@
 				"/assets/js/lib/bootstrap-scrollspy"
 			],
 			"showdown": [
-				"http://cdnjs.cloudflare.com/ajax/libs/showdown/0.3.1/showdown.min", 
+				"http://cdnjs.cloudflare.com/ajax/libs/showdown/0.3.1/showdown.min",
 				"http://cdn.kdi.co/js/showdown/0.3.1/showdown-min"
 			],
 			"backbone.app": [
-				"http://cdn.kdi.co/js/backbone.app/0.9.0/backbone.app-min"
+				"http://cdn.kdi.co/js/backbone.app/0.9.4/backbone.app-min"
 			],
 			"helper-handlebars": [
 				"/assets/js/helpers/handlebars"
@@ -38,7 +42,7 @@
 				"/assets/js/app/views"
 			],
 			"app-controllers": [
-				"/assets/js/app/controllers"
+				"/assets/js/app/controllers",
 			],
 			"google-plus": [
 				"https://apis.google.com/js/plusone"
@@ -60,11 +64,6 @@
 			},
 			"underscore": {
 				"exports": "_"
-			},
-			"bootstrap-scrollspy": {
-				"deps": [
-					"jquery"
-				]
 			},
 			"backbone.app": {
 				"deps": [
@@ -90,6 +89,7 @@
 				"deps": [
 					"backbone",
 					"underscore",
+					"showdown",
 					"jquery",
 					"handlebars",
 					"app-models"
@@ -106,14 +106,7 @@
 			}
 		},
 		"deps": [
-			"jquery",
-			"json2",
-			"underscore",
-			"backbone",
-			"handlebars",
-			"bootstrap-scrollspy",
-			"showdown",
-			"backbone.app",
+			"commons",
 			"helper-handlebars",
 			"app-models",
 			"app-views",
@@ -121,4 +114,6 @@
 		]
 	}
 
-})()
+	w.config = config;
+
+})(this.window)
