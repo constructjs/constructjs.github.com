@@ -30,7 +30,8 @@
 				"http://cdn.kdi.co/js/showdown/0.3.1/showdown-min"
 			],
 			"backbone.app": [
-				"http://cdn.kdi.co/js/backbone.app/0.9.4/backbone.app-min"
+				//"http://cdn.kdi.co/js/backbone.app/0.9.5/backbone.app-min",
+				"/assets/js/libs/backbone.app"
 			],
 			"backbone.markdown": [
 				"/assets/js/libs/backbone.markdown"
