@@ -11,6 +11,11 @@ To update the site with new content, first edit the wiki page(s) - then perform 
 ```
 git submodule foreach git pull origin master
 ```
+
+If you're updating the design be sure to update the LESS files and minify at the end:
+```
+lessc assets/less/main.less assets/css/main.css
+```
 Send a pull request with your changes to be considered for publication.
 
 
