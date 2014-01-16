@@ -1,0 +1,96 @@
+
+@import "ribbon-tr.less";
+
+.ribbon {
+
+	.ribbon-tr(auto, 2px, auto, #f00, #fff, #00f, #0FF);
+	font-weight:bold;
+}
+
+header.top {
+	position: relative;
+	height: 400px;
+	text-align: center;
+	background: #222 url(../img/header.jpg) repeat;
+
+	h1, h2 {
+		color: #fff;
+	}
+
+	h1 {
+		font-size: 5em;
+		padding-top: 96px;
+		padding-bottom: 48px;
+	}
+
+	.share {
+		position: absolute;
+		width: 400px;
+		top: 0;
+		right: 0;
+
+		& > div > a {
+			color: #999;
+			padding: 0 8px;
+		}
+	}
+
+	#quicklinks {
+		position: absolute;
+		bottom: 0;
+		right: 20%;
+		list-style-type: none;
+
+		li {
+			float: left;
+			background: #acc;
+			padding: 8px;
+			margin: 0 2px;
+
+			a {
+				text-decoration: none;
+				color: #444;
+			}
+		}
+
+		li:hover {
+			background: #fff;
+		}
+	}
+}
+
+header.top.inner {
+	background: #ccc;
+
+	height: 60px;
+
+	h2 {
+		display: none;
+	}
+}
+
+#main {
+	width: 80%;
+	margin: 0 auto;
+
+	img[alt='equation'] {
+		display: block;
+		margin: 0 auto;
+	}
+
+	pre {
+		background: #eee;
+	}
+}
+
+footer {
+	margin-top: 24px;
+	padding: 12px;
+	background: #444;
+	text-align: center;
+	color: #ccc;
+
+	a {
+		color: #fff;
+	}
+}

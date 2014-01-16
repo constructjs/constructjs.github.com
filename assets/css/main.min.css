@@ -1,0 +1,12 @@
+@media screen and (max-width:800px){.ribbon-tr{width:120px;height:120px}.ribbon-tr .tag{height:30px;width:120px;-webkit-transform:translate(50.00000000000003px, -14.999999999999996px) rotate(45.000000000000014deg)} .ribbon-tr .tag:after{width:156px;height:26px}}.ribbon{position:absolute;right:0;top:0;width:200px;height:150px;text-decoration:none;overflow:hidden;z-index:9999;font-weight:bold}.ribbon:hover,.ribbon .ribbon a{}
+.ribbon .tag:hover{background:#00f;color:#0ff}
+.ribbon .tag{display:block;height:30px;width:200px;background:#f00;color:#fff;font-size:auto;padding:2px;text-align:center;text-decoration:none;-webkit-transform-origin:15px 0;-moz-transform-origin:15px 0;-ms-transform-origin:15px 0;-o-transform-origin:15px 0;transform-origin:15px 0;-webkit-transform:translate(80.00000000000003px, -14.999999999999996px) rotate(45.000000000000014deg);-moz-transform:translate(80.00000000000003px, -14.999999999999996px) rotate(45.000000000000014deg);-ms-transform:translate(80.00000000000003px, -14.999999999999996px) rotate(45.000000000000014deg);-o-transform:translate(80.00000000000003px, -14.999999999999996px) rotate(45.000000000000014deg)}.ribbon .tag .tag:after{content:'';display:block;position:absolute;top:0;left:0;width:196px;height:26px;margin:1px;border:1px solid rgba(255,255,255,0.4)}
+header.top{position:relative;height:400px;text-align:center;background:#222 url(../img/header.jpg) repeat}header.top h1,header.top h2{color:#fff}
+header.top h1{font-size:5em;padding-top:96px;padding-bottom:48px}
+header.top .share{position:absolute;width:400px;top:0;right:0}header.top .share>div>a{color:#999;padding:0 8px}
+header.top #quicklinks{position:absolute;bottom:0;right:20%;list-style-type:none}header.top #quicklinks li{float:left;background:#acc;padding:8px;margin:0 2px}header.top #quicklinks li a{text-decoration:none;color:#444}
+header.top #quicklinks li:hover{background:#fff}
+header.top.inner{background:#ccc;height:60px}header.top.inner h2{display:none}
+#main{width:80%;margin:0 auto}#main img[alt='equation']{display:block;margin:0 auto}
+#main pre{background:#eee}
+footer{margin-top:24px;padding:12px;background:#444;text-align:center;color:#ccc}footer a{color:#fff}
