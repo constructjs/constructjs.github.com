@@ -15,7 +15,7 @@
 			"page/:page": "page"
 		},
 		index: function(){
-			console.log("I'm in index");
+			//console.log("I'm in index");
 			//this.data
 			this.layout = new APP.Layouts.Main({
 				data: this.data,

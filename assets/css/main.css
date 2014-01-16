@@ -80,6 +80,10 @@ header.top h1 {
   padding-top: 96px;
   padding-bottom: 48px;
 }
+header.top h1 a {
+  color: #fff;
+  text-decoration: none;
+}
 header.top .share {
   position: absolute;
   width: 450px;
@@ -107,8 +111,8 @@ header.top #quicklinks li {
   margin: 0 2px;
 }
 header.top #quicklinks li a {
-  text-decoration: none;
   color: #444;
+  text-decoration: none;
 }
 header.top #quicklinks li:hover {
   background: #fff;
@@ -117,8 +121,28 @@ header.top.inner {
   background: #ccc;
   height: 60px;
 }
+header.top.inner h1 {
+  display: block;
+  width: 57px;
+  height: 57px;
+  margin: 0;
+  padding: 0;
+}
+header.top.inner h1 a {
+  display: block;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 57px;
+  height: 57px;
+  background: url(../img/icon/114.png) no-repeat;
+  background-size: contain;
+}
 header.top.inner h2 {
   display: none;
+}
+header.top.inner #quicklinks {
+  left: 100px;
 }
 #main {
   width: 80%;

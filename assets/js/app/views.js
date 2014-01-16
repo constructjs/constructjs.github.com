@@ -10,7 +10,17 @@
 				})
 			});
 
+			this.header( options.page );
 			return APP.Layout.prototype.initialize.call(this, options );
+		},
+
+		header: function( page ){
+			var $header = $(this.el).find("header.top");
+			if( page == "Home" ){
+				$header.removeClass("hide");
+			} else {
+				$header.addClass("inner").removeClass("hide");
+			}
 		}
 	});
 

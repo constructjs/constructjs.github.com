@@ -21,6 +21,11 @@ header.top {
 		font-size: 5em;
 		padding-top: 96px;
 		padding-bottom: 48px;
+
+		a {
+			color: #fff;
+			text-decoration: none;
+		}
 	}
 
 	.share {
@@ -53,8 +58,8 @@ header.top {
 			margin: 0 2px;
 
 			a {
-				text-decoration: none;
 				color: #444;
+				text-decoration: none;
 			}
 		}
 
@@ -69,8 +74,29 @@ header.top.inner {
 
 	height: 60px;
 
+	h1 {
+		display: block;
+		width: 57px;
+		height: 57px;
+		margin: 0;
+		padding: 0;
+
+		a {
+			display: block;
+			text-indent: 100%; white-space: nowrap; overflow: hidden; //ir
+			width: 57px;
+			height: 57px;
+			background: url(../img/icon/114.png) no-repeat;
+			background-size: contain;
+		}
+	}
+
 	h2 {
 		display: none;
+	}
+
+	#quicklinks {
+		left: 100px;
 	}
 }
 
