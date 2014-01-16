@@ -82,9 +82,12 @@ header.top h1 {
 }
 header.top .share {
   position: absolute;
-  width: 400px;
-  top: 0;
+  width: 450px;
+  top: 8px;
   right: 0;
+}
+header.top .share > div {
+  display: inline-block;
 }
 header.top .share > div > a {
   color: #999;
