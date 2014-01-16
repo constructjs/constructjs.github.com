@@ -12,7 +12,7 @@
 		},
 		routes: {
 			"": "index",
-			"page/:page": "page"
+			":page": "page"
 		},
 		index: function(){
 			//console.log("I'm in index");
@@ -23,6 +23,7 @@
 			});
 		},
 		page: function( page ){
+			console.log("page");
 			//this.data
 			this.layout = new APP.Layouts.Main({
 				data: this.data,

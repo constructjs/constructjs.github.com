@@ -17,7 +17,7 @@
 		header: function( page ){
 			var $header = $(this.el).find("header.top");
 			if( page == "Home" ){
-				$header.removeClass("hide");
+				$header.removeClass("inner").removeClass("hide");
 			} else {
 				$header.addClass("inner").removeClass("hide");
 			}
