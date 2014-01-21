@@ -82,6 +82,7 @@ header.top h2 {
   color: #fff;
 }
 header.top h1 {
+  letter-spacing: 2px;
   font-size: 5em;
   padding-top: 96px;
   padding-bottom: 48px;
@@ -89,6 +90,10 @@ header.top h1 {
 header.top h1 a {
   color: #fff;
   text-decoration: none;
+}
+header.top h2 {
+  font-weight: 400;
+  letter-spacing: 2px;
 }
 header.top .share {
   position: absolute;
@@ -160,10 +165,12 @@ header.top.inner #quicklinks {
   /* tags */
 
 }
-#main h1,
+#main h1 {
+  font-weight: 400;
+  margin: 24px 0;
+}
 #main h2,
-#main h3,
-#main p {
+#main h3 {
   font-weight: 400;
   margin-bottom: 12px;
 }
