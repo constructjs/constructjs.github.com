@@ -1,10 +1,18 @@
 
 @import "ribbon-tr.less";
 
-.ribbon {
+a {
+	text-decoration: none;
 
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+a.ribbon {
 	.ribbon-tr(auto, 2px, auto, #f00, #fff, #00f, #0FF);
 	font-weight:bold;
+	text-decoration: none;
 }
 
 header.top {
@@ -103,21 +111,24 @@ header.top.inner {
 #main {
 	width: 80%;
 	margin: 0 auto;
-	font-size: 140%;
+	padding-top: 12px;
 	color: #444;
+	line-height: 140%;
+	font-size: 140%;
 
 	/* tags */
-	h2, h3, p {
+	h1, h2, h3, p {
+		font-weight: 400;
+		margin-bottom: 12px;
+	}
+
+	p {
+		font-weight: 200;
 		margin-bottom: 12px;
 	}
 
 	a {
 		color: #060;
-		text-decoration: none;
-
-		&:hover {
-			text-decoration: underline;
-		}
 	}
 
 	ul {
@@ -125,15 +136,17 @@ header.top.inner {
 		list-style-type: circle;
 	}
 
+	pre {
+		background: #eee;
+		padding: 12px;
+		margin-bottom: 12px;
+	}
+
 	img[alt='equation'] {
 		display: block;
 		margin: 0 auto;
 	}
 
-	pre {
-		background: #eee;
-		padding: 12px;
-	}
 }
 
 footer {

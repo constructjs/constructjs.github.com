@@ -14,27 +14,33 @@
     height: 26px;
   }
 }
-.ribbon {
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a.ribbon {
   position: absolute;
   right: 0;
   top: 0;
   width: 200px;
   height: 150px;
-  text-decoration: none;
   overflow: hidden;
   z-index: 9999;
   font-weight: bold;
+  text-decoration: none;
 }
-.ribbon:hover,
-.ribbon .ribbon a {
+a.ribbon:hover,
+a.ribbon .ribbon a {
   /* text-decoration:none; */
 
 }
-.ribbon .tag:hover {
+a.ribbon .tag:hover {
   background: #0000ff;
   color: #00ffff;
 }
-.ribbon .tag {
+a.ribbon .tag {
   display: block;
   height: 30px;
   width: 200px;
@@ -54,7 +60,7 @@
   -ms-transform: translate(80.00000000000003px, -14.999999999999996px) rotate(45.000000000000014deg);
   -o-transform: translate(80.00000000000003px, -14.999999999999996px) rotate(45.000000000000014deg);
 }
-.ribbon .tag .tag:after {
+a.ribbon .tag .tag:after {
   content: '';
   display: block;
   position: absolute;
@@ -147,34 +153,39 @@ header.top.inner #quicklinks {
 #main {
   width: 80%;
   margin: 0 auto;
-  font-size: 140%;
+  padding-top: 12px;
   color: #444;
+  line-height: 140%;
+  font-size: 140%;
   /* tags */
 
 }
+#main h1,
 #main h2,
 #main h3,
 #main p {
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+#main p {
+  font-weight: 200;
   margin-bottom: 12px;
 }
 #main a {
   color: #060;
-  text-decoration: none;
-}
-#main a:hover {
-  text-decoration: underline;
 }
 #main ul {
   margin: 0 0 24px 24px;
   list-style-type: circle;
 }
-#main img[alt='equation'] {
-  display: block;
-  margin: 0 auto;
-}
 #main pre {
   background: #eee;
   padding: 12px;
+  margin-bottom: 12px;
+}
+#main img[alt='equation'] {
+  display: block;
+  margin: 0 auto;
 }
 footer {
   margin-top: 24px;
