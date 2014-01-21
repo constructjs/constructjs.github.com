@@ -147,6 +147,26 @@ header.top.inner #quicklinks {
 #main {
   width: 80%;
   margin: 0 auto;
+  font-size: 140%;
+  color: #444;
+  /* tags */
+
+}
+#main h2,
+#main h3,
+#main p {
+  margin-bottom: 12px;
+}
+#main a {
+  color: #060;
+  text-decoration: none;
+}
+#main a:hover {
+  text-decoration: underline;
+}
+#main ul {
+  margin: 0 0 24px 24px;
+  list-style-type: circle;
 }
 #main img[alt='equation'] {
   display: block;
@@ -154,6 +174,7 @@ header.top.inner #quicklinks {
 }
 #main pre {
   background: #eee;
+  padding: 12px;
 }
 footer {
   margin-top: 24px;

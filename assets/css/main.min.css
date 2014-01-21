@@ -9,6 +9,9 @@ header.top #quicklinks li:hover{background:#fff}
 header.top.inner{background:#ccc;height:60px}header.top.inner h1{display:block;width:57px;height:57px;margin:0;padding:0}header.top.inner h1 a{display:block;text-indent:100%;white-space:nowrap;overflow:hidden;width:57px;height:57px;background:url(../img/icon/114.png) no-repeat;background-size:contain}
 header.top.inner h2{display:none}
 header.top.inner #quicklinks{left:100px}
-#main{width:80%;margin:0 auto}#main img[alt='equation']{display:block;margin:0 auto}
-#main pre{background:#eee}
+#main{width:80%;margin:0 auto;font-size:140%;color:#444;}#main h2,#main h3,#main p{margin-bottom:12px}
+#main a{color:#060;text-decoration:none}#main a:hover{text-decoration:underline}
+#main ul{margin:0 0 24px 24px;list-style-type:circle}
+#main img[alt='equation']{display:block;margin:0 auto}
+#main pre{background:#eee;padding:12px}
 footer{margin-top:24px;padding:12px;background:#444;text-align:center;color:#ccc}footer a{color:#fff}
