@@ -32,7 +32,7 @@
 			// if a full http link allow the clickthrough
 			if(/(file|http).*/.test(url)) window.location = url;
 			// 'clean' all the wiki paths
-			url= url.replace("./wiki", "").replace("./", "");
+			url= url.replace("wiki", "").replace("./", "");
 			// goto the new page
 			app.navigate(url, true);
 		}
