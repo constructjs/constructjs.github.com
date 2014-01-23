@@ -8,7 +8,7 @@ header.top h2{font-weight:400;letter-spacing:2px}
 header.top .share{position:absolute;width:450px;top:8px;right:0;text-align:left}header.top .share>div{display:inline-block}header.top .share>div>a{color:#999;padding:0 8px}
 header.top #quicklinks{position:absolute;bottom:0;right:20%;list-style-type:none}header.top #quicklinks li{float:left;background:#acc;padding:8px;margin:0 2px}header.top #quicklinks li a{color:#444;text-decoration:none}
 header.top #quicklinks li:hover{background:#fff}
-header.top.inner{background:#ccc;height:60px}header.top.inner h1{display:block;width:57px;height:57px;margin:0;padding:0}header.top.inner h1 a{display:block;text-indent:100%;white-space:nowrap;overflow:hidden;width:57px;height:57px;background:url(../img/icon/114.png) no-repeat;background-size:contain}
+header.top.inner{background:#ccc;height:60px}header.top.inner h1{display:block;width:57px;height:57px;margin:0;padding:0}header.top.inner h1 a{display:block;text-indent:100%;white-space:nowrap;overflow:hidden;width:57px;height:57px;background:url(../img/icon/114.png) no-repeat;background-size:50px 50px;background-position:center center}
 header.top.inner h2{display:none}
 header.top.inner #quicklinks{left:100px}
 #main{width:80%;margin:0 auto;padding-top:12px;color:#444;line-height:140%;font-size:140%;}#main h1{font-weight:400;margin:24px 0}
