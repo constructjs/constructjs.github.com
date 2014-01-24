@@ -12,10 +12,10 @@ header.top.inner{background:#ccc;height:60px}header.top.inner h1{display:block;w
 header.top.inner h2{display:none}
 header.top.inner #quicklinks{left:100px}
 #main{width:80%;margin:0 auto;padding-top:12px;color:#444;line-height:140%;font-size:140%;}#main h1{font-weight:400;margin:24px 0}
-#main h2,#main h3{font-weight:400;margin-bottom:12px}
+#main h2,#main h3{font-weight:400;margin:36px 0 12px 0}
 #main p{font-weight:200;margin-bottom:12px}
 #main a{color:#060}
-#main ul{margin:0 0 24px 24px;list-style-type:circle}
+#main ul{margin:0 0 24px 24px;list-style-type:circle}#main ul li{font-weight:200}
 #main pre{background:#eee;padding:12px;margin-bottom:12px}
 #main img[alt='equation']{display:block;margin:0 auto}
 footer{margin-top:24px;padding:12px;background:#444;text-align:center;color:#ccc}footer a{color:#fff}
