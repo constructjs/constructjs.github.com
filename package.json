@@ -1,0 +1,30 @@
+{
+	"name": "construct",
+	"version": "0.0.1",
+	"description": "Construct.js website",
+	"author": "makesites",
+	"contributors": [
+		{ "name": "Makis Tracend", "email": "makis@makesit.es" }
+	],
+	"homepage": "http://constructjs.org",
+	"keywords": ["makesites", "construct", "webgl", "app"],
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/constructjs/constructjs.github.com.git"
+	},
+	"bugs": {
+		"url": "https://github.com/constructjs/constructjs.github.com/issues"
+	},
+	"licenses": [
+		{
+			"type": "Creative Commons Attribution - CC BY 4.0",
+			"url": "https://creativecommons.org/licenses/by/4.0/"
+		}
+	],
+	"engines": { "markdown": "*" },
+	"main": "index.php",
+	"dependencies": {
+		"backbone.app": "*",
+		"backbone.ui": "*"
+	}
+}
