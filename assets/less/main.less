@@ -1,6 +1,9 @@
 
 @import "ribbon-tr.less";
 
+body {
+    
+}
 a {
 	text-decoration: none;
 
@@ -10,7 +13,7 @@ a {
 }
 
 a.ribbon {
-	.ribbon-tr(auto, 2px, auto, #f00, #fff, #00f, #0FF);
+	.ribbon-tr(auto, 6px, auto, #00a147, #fff, #00cc58, #fff);
 	font-weight:bold;
 	text-decoration: none;
 }
@@ -28,8 +31,8 @@ header.top {
 	h1 {
 		letter-spacing: 2px;
 		font-size: 5em;
-		padding-top: 96px;
-		padding-bottom: 48px;
+		padding-top: 120px;
+		padding-bottom: 20px;
 
 		a {
 			color: #fff;
@@ -120,10 +123,12 @@ header.top.inner {
 	margin: 0 auto;
 	padding-top: 12px;
 	color: #444;
-	line-height: 140%;
-	font-size: 140%;
-
-	/* tags */
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1.5em;
+    line-height: 160%;
+    letter-spacing: 1px;
+    
+    /* tags */
 	h1 {
 		font-weight: 400;
 		margin: 24px 0;
@@ -135,9 +140,9 @@ header.top.inner {
 	}
 
 	p {
-		font-weight: 200;
-		margin-bottom: 12px;
-	}
+        margin-bottom: 12px;
+        font-weight: 200;
+    }
 
 	a {
 		color: #060;
@@ -154,8 +159,8 @@ header.top.inner {
 
 	pre {
 		background: #eee;
-		padding: 12px;
-		margin-bottom: 12px;
+		padding: 20px;
+		margin: 30px 0;
 	}
 
 	img[alt='equation'] {
@@ -171,8 +176,23 @@ footer {
 	background: #444;
 	text-align: center;
 	color: #ccc;
-
-	a {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    
+    a {
 		color: #fff;
 	}
+}
+
+@media screen and (max-width: 767px) {
+    header.top h1 {
+        font-size: 3em;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    header.top h1 {
+        font-size: 2em;
+    }
+    
 }

@@ -37,17 +37,17 @@ a.ribbon .ribbon a {
 
 }
 a.ribbon .tag:hover {
-  background: #0000ff;
-  color: #00ffff;
+  background: #00cc58;
+  color: #ffffff;
 }
 a.ribbon .tag {
   display: block;
   height: 30px;
   width: 200px;
-  background: #ff0000;
+  background: #00a147;
   color: #ffffff;
   font-size: auto;
-  padding: 2px;
+  padding: 6px;
   text-align: center;
   text-decoration: none;
   -webkit-transform-origin: 15px 0px;
@@ -84,8 +84,8 @@ header.top h2 {
 header.top h1 {
   letter-spacing: 2px;
   font-size: 5em;
-  padding-top: 96px;
-  padding-bottom: 48px;
+  padding-top: 120px;
+  padding-bottom: 20px;
 }
 header.top h1 a {
   color: #fff;
@@ -161,8 +161,10 @@ header.top.inner #quicklinks {
   margin: 0 auto;
   padding-top: 12px;
   color: #444;
-  line-height: 140%;
-  font-size: 140%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  line-height: 160%;
+  letter-spacing: 1px;
   /* tags */
 
 }
@@ -176,8 +178,8 @@ header.top.inner #quicklinks {
   margin: 36px 0 12px 0;
 }
 #main p {
-  font-weight: 200;
   margin-bottom: 12px;
+  font-weight: 200;
 }
 #main a {
   color: #060;
@@ -191,8 +193,8 @@ header.top.inner #quicklinks {
 }
 #main pre {
   background: #eee;
-  padding: 12px;
-  margin-bottom: 12px;
+  padding: 20px;
+  margin: 30px 0;
 }
 #main img[alt='equation'] {
   display: block;
@@ -204,7 +206,18 @@ footer {
   background: #444;
   text-align: center;
   color: #ccc;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 footer a {
   color: #fff;
+}
+@media screen and (max-width: 767px) {
+  header.top h1 {
+    font-size: 3em;
+  }
+}
+@media screen and (max-width: 480px) {
+  header.top h1 {
+    font-size: 2em;
+  }
 }
