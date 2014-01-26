@@ -17,15 +17,16 @@
 		index: function(){
 			//console.log("I'm in index");
 			//this.data
-			this.layout = new APP.Layouts.Main({
+			this.layout = new APP.Layouts.Home({
 				data: this.data,
 				page: "Home"
 			});
+
 		},
 		page: function( page ){
-			console.log("page");
+			//console.log("page");
 			//this.data
-			this.layout = new APP.Layouts.Main({
+			this.layout = new APP.Layouts.Page({
 				data: this.data,
 				page: page
 			});

@@ -24,6 +24,22 @@
 		}
 	});
 
+	APP.Layouts.Home = APP.Layouts.Main.extend({
+		initialize: function( options ){
+			// add in post render...
+			$(this.el).addClass("home").removeClass("subpage");
+			return APP.Layouts.Main.prototype.initialize.call(this, options );
+		}
+	});
+
+	APP.Layouts.Page = APP.Layouts.Main.extend({
+			initialize: function( options ){
+			// add in post render...
+			$(this.el).addClass("subpage").removeClass("home");
+			return APP.Layouts.Main.prototype.initialize.call(this, options );
+		}
+	});
+
 	APP.Views.Main = APP.Views.Markdown.extend({
 		el: "#main",
 		options: {
