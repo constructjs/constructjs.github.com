@@ -200,6 +200,10 @@ header.top.inner #quicklinks {
   display: block;
   margin: 0 auto;
 }
+/* homepage specific styles */
+.home #main a img {
+  margin: 0 28px;
+}
 footer {
   margin-top: 24px;
   padding: 12px;
