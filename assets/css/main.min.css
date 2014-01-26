@@ -21,4 +21,4 @@ header.top.inner #quicklinks{left:100px}
 #main img[alt='equation']{display:block;margin:0 auto}
 .home #main a img{margin:0 28px}
 footer{margin-top:24px;padding:12px;background:#444;text-align:center;color:#ccc;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}footer a{color:#fff}
-@media screen and (max-width:767px){header.top h1{font-size:3em}}@media screen and (max-width:480px){header.top h1{font-size:2em}}
+@media screen and (max-width:767px){header.top h1{font-size:3em} .home #main a img{margin:0}}@media screen and (max-width:480px){header.top h1{font-size:2em}}

@@ -219,6 +219,9 @@ footer a {
   header.top h1 {
     font-size: 3em;
   }
+  .home #main a img {
+    margin: 0;
+  }
 }
 @media screen and (max-width: 480px) {
   header.top h1 {
