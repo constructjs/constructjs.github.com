@@ -101,6 +101,8 @@ header.top .share {
   top: 8px;
   right: 0;
   text-align: left;
+  /* FIX: Facebook's positioning */
+
 }
 header.top .share > div {
   display: inline-block;
@@ -108,6 +110,11 @@ header.top .share > div {
 header.top .share > div > a {
   color: #999;
   padding: 0 8px;
+}
+header.top .share .fb-like {
+  display: block;
+  float: left;
+  margin-right: 4px;
 }
 header.top #quicklinks {
   position: absolute;
